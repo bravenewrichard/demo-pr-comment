@@ -2,7 +2,7 @@ name: PR Comment Demo
 
 on: 
   push:
-    branches: demo-1
+    branches: demo-2
 
 jobs:
   build:
