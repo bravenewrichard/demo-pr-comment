@@ -1,3 +1,6 @@
-yo
+POST PR COMMENT
 -----
-yo
+
+```
+./ui-tests.sh 2>&1 | tee log.txt; python ./comment.py
+```
