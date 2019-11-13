@@ -35,5 +35,5 @@ clean = re.compile(r'\[task.*\]')
 results = re.sub(clean, '', comment)
 
 repo = g.get_repo(GITHUB_REPO)
-pr = repo.get_pull(1)
+pr = repo.get_pull(7)
 pr.create_issue_comment(results)
