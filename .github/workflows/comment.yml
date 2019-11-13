@@ -25,4 +25,4 @@ jobs:
         pip install -r requirements.txt
     - name: Post comment
       run: |
-        comment.py
+        python comment.py
